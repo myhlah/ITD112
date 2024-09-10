@@ -1,0 +1,39 @@
+.csv-uploader {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the input and button */
+  margin: -75px 20px 20px 400px; /* Adjust margin as needed */
+ 
+}
+
+.file-input {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 50%; /* Adjust width if needed */
+
+}
+
+.upload-csv-button {
+  background-color: #28a745; /* Green color for the button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-left: -28%;
+
+}
+
+.upload-csv-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.upload-csv-button:disabled {
+  background-color: #6c757d; /* Greyed out color for disabled state */
+  cursor: not-allowed;
+}
