@@ -880,8 +880,7 @@ const topStudents = studentData
             <button onClick={paginateNext} disabled={currentPage === totalPages}>Next</button>
           </div>
 
-        </>
-      )}
+        
        <div className="charts-container">
         
           <div className="chart-column">
@@ -940,6 +939,8 @@ const topStudents = studentData
           </div>
 
         </div>
+        </>
+      )}
     </div>
   );  
 };
