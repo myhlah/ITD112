@@ -1,1 +1,1 @@
-# ITD112
+# ITD112 Lab activities
